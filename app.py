@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 
 BASE_DIR = Path(__file__).resolve().parent
-MODELS_DIR = BASE_DIR / "models"
+MODELS_DIR = BASE_DIR / "Models"
 
 TEXT_MODEL_PATH = MODELS_DIR / "text_model.pkl"
 URL_MODEL_PATH = MODELS_DIR / "url_model.pkl"
